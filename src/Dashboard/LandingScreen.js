@@ -172,6 +172,7 @@ const LandingScreen = () => {
                     }}
                 />
             </Header>
+            
             <Content 
                 style={{
                     padding: '0 24px',
