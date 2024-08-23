@@ -1,0 +1,21 @@
+.background{
+
+    background-image: url("https://cdn.corporatefinanceinstitute.com/assets/real-estate.jpeg");
+        height:70vh;
+        width:100vw;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        padding:0px;
+  
+  
+  } 
+  .landingSearch{
+    width:25%;
+    margin-top:27%;
+    margin-left:7%;
+  } 
+
+.ant-menu-horizontal > .ant-menu-item {
+  color: white !important;
+}
