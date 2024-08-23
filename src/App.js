@@ -1,24 +1,21 @@
 
 import './App.css';
+import LandingScreen from '../src/Dashboard/LandingScreen'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Routes>
+      <Route path="/" element={<LandingScreen />} />
+      {/* <Route path="/buy" element={<Buyer />} />
+      <Route path="/sell" element={<Seller />} />
+      <Route path="/Find-any-agent" element={<FindAnyAgent />} />
+      <Route path="/manage-rentals" element={<ManageRentals />} />
+   
+      <Route path="/help" element={<Help />} /> */}
+    </Routes>
+  </Router>
   );
 }
 
